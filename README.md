@@ -8,6 +8,7 @@ This is a boilerplate aimed for web developers who are trying to design webpage 
 - Nested CSS (from postcss-nested)
 - Modern CSS Specs (from postcss-preset-env)
 - Live Reload (from parceljs)
+- Clean unused CSS in production (from postcss-purgecss)
 
 ## Usage
 
@@ -17,5 +18,8 @@ This is a boilerplate aimed for web developers who are trying to design webpage 
 2. Install dependencies
    run `yarn install`
 
-3. Run with parcel
-   run `parcel serve index.html`
+3. Run for development
+   run `yarn dev`
+
+4. If you are ready run for production
+   run `yarn prod`
