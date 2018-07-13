@@ -1,4 +1,4 @@
-#TailwindCSS + ParcelJS
+# TailwindCSS + ParcelJS
 
 This is a boilerplate aimed for web developers who are trying to design webpage using Tailwindcss.
 
