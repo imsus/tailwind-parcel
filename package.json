@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-parcel",
+  "version": "1.0.0",
+  "description": "Sample boilerplate with tailwindcss and parceljs aimed for speedy webpage development.",
+  "main": "index.js",
+  "author": "Imam Susanto",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "postcss-import": "^11.1.0",
+    "postcss-nested": "^3.0.0",
+    "postcss-preset-env": "^5.2.1",
+    "tailwindcss": "^0.6.3"
+  }
+}
