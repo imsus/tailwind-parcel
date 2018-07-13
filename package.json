@@ -7,9 +7,15 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
+    "cssnano": "^4.0.2",
     "postcss-import": "^11.1.0",
     "postcss-nested": "^3.0.0",
     "postcss-preset-env": "^5.2.1",
+    "postcss-purgecss": "^1.0.0",
     "tailwindcss": "^0.6.3"
+  },
+  "scripts": {
+    "dev": "parcel serve index.html",
+    "prod": "parcel build index.html"
   }
 }
