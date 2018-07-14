@@ -11,8 +11,8 @@
 ## ⭐️ Features
 
 - Structured import using [postcss-import](https://github.com/postcss/postcss-import).
-- Support nested like sass using [postcss-nested](https://github.com/postcss/postcss-nested).
-- Support future css spec using [postcss-preset-env](https://github.com/csstools/postcss-preset-env).
+- Support nested like Sass using [postcss-nested](https://github.com/postcss/postcss-nested).
+- Support future CSS spec using [postcss-preset-env](https://github.com/csstools/postcss-preset-env).
 - Build system using [parcel-bundler](https://github.com/parcel-bundler/parcel)
 - Remove all unnecessary CSS on production using [postcss-purgecss](https://github.com/FoundrySH/postcss-purgecss).
 
