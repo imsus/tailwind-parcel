@@ -1,25 +1,29 @@
-# TailwindCSS + ParcelJS
+<h1 align="center">🎐 Tailwind Parcel</h1>
+<p align="center">This is a basic project boilerplate with TailwindCSS inside suited for in-browser prototyping.<p>
+<p align="center">
+  <a href="https://github.com/imsus"><img src="https://badgen.now.sh/list/author/@imsus/grey" alt="author badge with @imsus written on it"></a>
+  <img src="https://badgen.now.sh/list/featuring/tailwindcss%2ftailwindcss,parcel-bundler%2fparcel/cyan" alt="featuring badge with tailwind/tailwindcss and parcel-bundler/parcel written on it">
+  <a href="https://github.com/imsus/tailwind-parcel/blob/master/LICENSE.md"><img src="https://badgen.now.sh/badge/license/MIT/blue" alt="license badge with MIT written on it"></a>
+</p>
 
-This is a boilerplate aimed for web developers who are trying to design webpage using Tailwindcss.
+---
 
-## Feature
+## ⭐️ Features
 
-- Import CSS (from postcss-import)
-- Nested CSS (from postcss-nested)
-- Modern CSS Specs (from postcss-preset-env)
-- Live Reload (from parceljs)
-- Clean unused CSS in production (from postcss-purgecss)
+- Structured import using [postcss-import](https://github.com/postcss/postcss-import).
+- Support nested like sass using [postcss-nested](https://github.com/postcss/postcss-nested).
+- Support future css spec using [postcss-preset-env](https://github.com/csstools/postcss-preset-env).
+- Build system using [parcel-bundler](https://github.com/parcel-bundler/parcel)
+- Remove all unnecessary CSS on production using [postcss-purgecss](https://github.com/FoundrySH/postcss-purgecss).
 
-## Usage
+## ⚠️ Requirements
 
-1. Download this repo
-   run `git clone https://github.com/imsus/tailwind-parcel`
+1. You must installed `parcel-bundler` globally. Run `npm i -g parcel-bundler` or `yarn global add parcel-bundler` if you have `yarn`.
+2. Make sure you can run `parcel` in terminal. You should put `parcel` inside your `PATH` environment variable (`npm` and `yarn` takes care of this).
 
-2. Install dependencies
-   run `yarn install`
+## ✅ Usage
 
-3. Run for development
-   run `yarn dev`
-
-4. If you are ready run for production
-   run `yarn prod`
+1. Clone/Download this repo.
+2. Install code dependencies. Run `npm install` or `yarn install` if you prefer `yarn` over `npm`.
+3. Start the development. Run `npm run dev` or `yarn dev`. This will watch `index.html` file and other files referenced inside `index.js` file.
+4. If you are finished the development and want to move into production then run `npm run prod` or `yarn prod`. This will bundle all of the code, minify, and remove all unused code inside from `tailwindcss` dependencies.
