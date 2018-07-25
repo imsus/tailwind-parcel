@@ -1,5 +1,5 @@
 <h1 align="center" style="border-bottom: 0">🎐 Tailwind Parcel</h1>
-<p align="center">This is a basic project boilerplate with TailwindCSS inside suited for in-browser prototyping.<p>
+<p align="center">Basic project boilerplate with TailwindCSS. This is suited for in-browser prototyping.<p>
 <p align="center">
   <a href="https://github.com/imsus"><img src="https://badgen.net/badge/author/@imsus/grey" alt="author badge with @imsus written on it"></a>
   <img src="https://badgen.net/badge/featuring/tailwindcss%2ftailwindcss,parcel-bundler%2fparcel/cyan?list=1" alt="featuring badge with tailwind/tailwindcss and parcel-bundler/parcel written on it">
@@ -13,7 +13,7 @@
 - Structured import using [postcss-import](https://github.com/postcss/postcss-import).
 - Support nested like Sass using [postcss-nested](https://github.com/postcss/postcss-nested).
 - Support future CSS spec using [postcss-preset-env](https://github.com/csstools/postcss-preset-env).
-- Build system using [parcel-bundler](https://github.com/parcel-bundler/parcel)
+- Build system using [parcel-bundler](https://github.com/parcel-bundler/parcel).
 - Remove all unnecessary CSS on production using [postcss-purgecss](https://github.com/FoundrySH/postcss-purgecss).
 
 ## ⚠️ Requirements
