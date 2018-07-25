@@ -1,9 +1,9 @@
 <h1 align="center" style="border-bottom: 0">🎐 Tailwind Parcel</h1>
 <p align="center">This is a basic project boilerplate with TailwindCSS inside suited for in-browser prototyping.<p>
 <p align="center">
-  <a href="https://github.com/imsus"><img src="https://badgen.now.sh/list/author/@imsus/grey" alt="author badge with @imsus written on it"></a>
-  <img src="https://badgen.now.sh/list/featuring/tailwindcss%2ftailwindcss,parcel-bundler%2fparcel/cyan" alt="featuring badge with tailwind/tailwindcss and parcel-bundler/parcel written on it">
-  <a href="https://github.com/imsus/tailwind-parcel/blob/master/LICENSE.md"><img src="https://badgen.now.sh/badge/license/MIT/blue" alt="license badge with MIT written on it"></a>
+  <a href="https://github.com/imsus"><img src="https://badgen.net/badge/author/@imsus/grey" alt="author badge with @imsus written on it"></a>
+  <img src="https://badgen.net/badge/featuring/tailwindcss%2ftailwindcss,parcel-bundler%2fparcel/cyan?list=1" alt="featuring badge with tailwind/tailwindcss and parcel-bundler/parcel written on it">
+  <a href="https://github.com/imsus/tailwind-parcel/blob/master/LICENSE.md"><img src="https://badgen.net/badge/license/MIT/blue" alt="license badge with MIT written on it"></a>
 </p>
 
 
