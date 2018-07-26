@@ -5,12 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Tailwindcss + Parceljs</title>
+
+    <script src="https://unpkg.com/feather-icons"></script>
   </head>
   <body>
-    <div class="min-h-screen flex items-center justify-center">
-      <div>Welcome to Tailwindcss + Parceljs</div>
+    <div class="min-h-screen font-sans container px-3 py-24 mx-auto leading-none bg-bottom bg-no-repeat">
+
+      <header class="text-center mb-16 md:mb-32">
+        <h1 class="font-semibold text-3xl lg:text-5xl mb-3">Tailwind Parcel</h1>
+        <p class="text-lg lg:text-2xl mb-8 leading-tight">Simple TailwindCSS boilerplate designed for in-browser prototyping.</p>
+        <div class="text-lg flex justify-center">
+          <a class="text-blue-dark no-underline inline-flex items-center" href="">
+            <span>Github Repository</span>
+            <i data-feather="chevron-right"></i>
+          </a>
+        </div>
+      </header>
+
+      <main class="max-w-lg mx-auto">
+        <div class="md:-mx-8 flex flex-wrap">
+          <div class="w-full mb-16 md:mb-0 md:w-1/2 md:px-8">
+            <svg class="flex mb-6" height="50" width="50" viewBox="0 0 90 90" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><circle id="b" cx="40" cy="40" r="40"></circle><filter x="-8.8%" y="-6.2%" width="117.5%" height="117.5%" filterUnits="objectBoundingBox" id="a"><feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset><feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur><feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.1 0" in="shadowBlurOuter1"></feColorMatrix></filter><linearGradient x1="0%" y1="0%" y2="100%" id="c"><stop stop-color="#2383AE" offset="0%"></stop><stop stop-color="#6DD7B9" offset="100%"></stop></linearGradient></defs><g fill="none" fill-rule="evenodd"><g transform="translate(5 5)"><use fill="#000" filter="url(#a)" xlink:href="#b"></use><use fill="#FFF" xlink:href="#b"></use></g><path d="M25.6 33.92C27.52 26.24 32.32 22.4 40 22.4c11.52 0 12.96 8.64 18.72 10.08 3.84.96 7.2-.48 10.08-4.32-1.92 7.68-6.72 11.52-14.4 11.52-11.52 0-12.96-8.64-18.72-10.08-3.84-.96-7.2.48-10.08 4.32zM11.2 51.2c1.92-7.68 6.72-11.52 14.4-11.52 11.52 0 12.96 8.64 18.72 10.08 3.84.96 7.2-.48 10.08-4.32-1.92 7.68-6.72 11.52-14.4 11.52-11.52 0-12.96-8.64-18.72-10.08-3.84-.96-7.2.48-10.08 4.32z" fill="url(#c)" transform="translate(5 5)"></path></g></svg>
+            <h3 class="font-semibold text-2xl mb-4">TailwindCSS</h3>
+            <p class="leading-normal mb-4">Tailwind is a utility-first CSS framework for rapidly building custom user interfaces.</p>
+            <a target="_blank" rel="noopener" class="text-blue-dark no-underline inline-flex items-center" href="https://tailwindcss.com/docs/what-is-tailwind/">
+              <span>View TailwindCSS Docs</span>
+              <i data-feather="arrow-up-right"></i>
+            </a>
+          </div>
+          <div class="w-full md:w-1/2 md:px-8">
+            <img class="flex mb-6 object-fit" height="50" width="175" src="https://user-images.githubusercontent.com/19409/31321658-f6aed0f2-ac3d-11e7-8100-1587e676e0ec.png" alt="">
+            <h3 class="font-semibold text-2xl mb-4">Parcel Bundler</h3>
+            <p class="leading-normal mb-4">Parcel is a web application bundler, differentiated by its developer experience. It offers blazing fast performance utilizing multicore processing, and requires zero configuration.</p>
+            <a target="_blank" rel="noopener"class="text-blue-dark no-underline inline-flex items-center" href="https://parceljs.org/getting_started.html">
+              <span>View how to use ParcelJS</span>
+              <i data-feather="arrow-up-right"></i>
+            </a>
+          </div>
+        </div>
+      </main>
+
     </div>
 
     <script src="./index.js"></script>
+    <script>
+      feather.replace({
+        height: 19
+      })
+    </script>
   </body>
 </html>
