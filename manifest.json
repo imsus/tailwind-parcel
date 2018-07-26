@@ -1,0 +1,29 @@
+{
+  "name": "PWA Compat",
+  "short_name": "PWA Compat",
+  "icons": [
+    {
+      "src": "./logo-192.png",
+      "sizes": "192x192"
+    }, {
+      "src": "./logo-128.png",
+      "sizes": "128x128"
+    }
+  ],
+  "display": "fullscreen",
+  "scope": "/",
+  "start_url": "./?homescreen=true",
+  "orientation": "portrait",
+  "theme_color": "#1abc9c",
+  "background_color": "#2c3e50",
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "https://play.google.com/store/apps/details?id=com.example.app1",
+      "id": "com.example.app1"
+    }, {
+      "platform": "itunes",
+      "url": "https://itunes.apple.com/app/example-app1/id123456789"
+    }
+  ]
+}
