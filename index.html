@@ -1,58 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Tailwind Parcel</title>
-    <meta name="description" content="Simple TailwindCSS boilerplate designed for in-browser prototyping.">
-    <script async src="https://cdn.jsdelivr.net/npm/pwacompat@2.0.6/pwacompat.min.js" integrity="sha384-GOaSLecPIMCJksN83HLuYf9FToOiQ2Df0+0ntv7ey8zjUHESXhthwvq9hXAZTifA" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <div class="min-h-screen font-sans container px-3 py-24 mx-auto leading-none bg-bottom bg-no-repeat">
 
-      <header class="text-center mb-16 md:mb-32">
-        <h1 class="font-semibold text-3xl lg:text-5xl mb-3">Tailwind Parcel</h1>
-        <p class="text-lg lg:text-2xl mb-8 leading-tight">Simple TailwindCSS boilerplate designed for in-browser prototyping.</p>
-        <div class="text-lg flex justify-center">
-          <a target="_blank" rel="noopener" class="text-blue-dark no-underline inline-flex items-center" href="https://github.com/imsus/tailwind-parcel">
-            <span>Github Repository</span>
-            <i data-feather="chevron-right"></i>
-          </a>
-        </div>
-      </header>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tailwind Parcel</title>
+  <meta name="description" content="Simple TailwindCSS boilerplate designed for in-browser prototyping.">
+  <link rel="stylesheet" href="./main.css">
+</head>
 
-      <main class="max-w-lg mx-auto">
-        <div class="md:-mx-8 flex flex-wrap">
-          <div class="w-full mb-16 md:mb-0 md:w-1/2 md:px-8">
-            <img class="flex mb-6 object-fit" height="50" src="./img/tailwind.svg" alt="">
-            <h3 class="font-semibold text-2xl mb-4">TailwindCSS</h3>
-            <p class="leading-normal mb-4">Tailwind is a utility-first CSS framework for rapidly building custom user interfaces.</p>
-            <a target="_blank" rel="noopener" class="text-blue-dark no-underline inline-flex items-center" href="https://tailwindcss.com/docs/what-is-tailwind/">
-              <span>View TailwindCSS Docs</span>
-              <i data-feather="arrow-up-right"></i>
-            </a>
-          </div>
-          <div class="w-full md:w-1/2 md:px-8">
-            <img class="flex mb-6 object-fit" height="50" width="175" src="https://user-images.githubusercontent.com/19409/31321658-f6aed0f2-ac3d-11e7-8100-1587e676e0ec.png" alt="">
-            <h3 class="font-semibold text-2xl mb-4">Parcel Bundler</h3>
-            <p class="leading-normal mb-4">Parcel is a web application bundler, differentiated by its developer experience. It offers blazing fast performance utilizing multicore processing, and requires zero configuration.</p>
-            <a target="_blank" rel="noopener"class="text-blue-dark no-underline inline-flex items-center" href="https://parceljs.org/getting_started.html">
-              <span>View how to use ParcelJS</span>
-              <i data-feather="arrow-up-right"></i>
-            </a>
-          </div>
-        </div>
-      </main>
+<body class="bg-white dark:bg-black">
+  <div class="font-sans mx-auto min-h-screen leading-none py-24 px-3">
+    <h1
+      class="font-extrabold mx-auto my-5 text-black leading-tight max-w-4xl text-4xl md:text-5xl lg:my-10 xl:text-6xl dark:text-white">
+      <span class="text-teal-500 dark:text-teal-400">TailwindCSS&nbsp;v3</span>
+      &times;
+      <span class="text-violet-500 dark:text-violet-400">Parcel&nbsp;v2</span>
+    </h1>
+    <p class="mx-auto leading-normal max-w-4xl text-2xl text-gray-700 lg:text-3xl">
+      Boilerplate to create HTML page for speedy website prototyping.
+      <a class="text-blue-700 underline" href="https://github.com/imsus/tailwind-parcel" target="_blank"
+        rel="noopener">View&nbsp;Repo&nbsp;on&nbsp;GitHub.</a>
+    </p>
+  </div>
+</body>
 
-    </div>
-
-    <script defer src="./index.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/feather-icons@4.7.3/dist/feather.min.js" integrity="sha256-km9ViEDg2jYMRIV3IgvhZkrGIXt7e+T0zYez9FC064c=" crossorigin="anonymous"></script>
-    <script>
-      feather.replace({
-        height: 19
-      })
-    </script>
-  </body>
 </html>
